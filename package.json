@@ -9,7 +9,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "analyz": "vue-cli-service build --report"
+    "analyz": "vue-cli-service build --report",
+    "run:docker": "./scripts/build_docker_and_run.sh"
   },
   "dependencies": {
     "@casl/ability": "4.1.6",
