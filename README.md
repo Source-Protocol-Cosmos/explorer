@@ -86,7 +86,7 @@ server {
 
 
 
-## Contributors
+## Running with ssl
 
-Developers: @liangping @dingyiming
+You can check more information on how to run the explorer with ssl by checking the [SSL](docs/SSL.md) file.
 
