@@ -9,7 +9,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "analyz": "vue-cli-service build --report"
+    "analyz": "vue-cli-service build --report",
+    "init:self-signed": "bash ./scripts/init-self-signed.sh",
+    "init:letsencrypt": "bash ./scripts/init-letsencrypt.sh",
+    "start:self-signed": "docker compose -f ./self-signed.docker-compose.yml up --force-recreate -d",
+    "start:letsencrypt": "docker compose -f ./letsencrypt.docker-compose.yml up --force-recreate -d"
   },
   "dependencies": {
     "@casl/ability": "4.1.6",

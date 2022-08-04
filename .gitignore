@@ -28,3 +28,6 @@ yarn-error.log*
 # Docs
 /docs/.temp
 .env
+
+nginx/certs
+data/certbot
